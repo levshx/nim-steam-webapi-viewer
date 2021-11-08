@@ -26,7 +26,7 @@ function showAPI(stringAPI) {
                     let description = jsonAPI.apilist.interfaces[interface].methods[method].parameters[param].description                    
                     a = a + "<tr><td>"+name+"</td><td>"+type+"</td><td>"+optional+"</td><td>"+description+"</td></tr>"
                 }  
-                a.concat("</table><br>")
+                a = a+ "</table><br>"
                 $("#API_div").append(a)
             }  
             else {
