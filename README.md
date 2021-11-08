@@ -11,6 +11,3 @@ WebAPI viewer
 [![Github stars](https://img.shields.io/github/stars/levshx/nim-steam-webapi-viewer)](https://github.com/levshx/nim-steam-webapi-viewer/stargazers)
 [![Github top language](https://img.shields.io/github/languages/top/levshx/nim-steam-webapi-viewer)](https://github.com/levshx/nim-steam-webapi-viewer/)
 [![Github license](https://img.shields.io/github/license/levshx/nim-steam-webapi-viewer)](https://github.com/levshx/nim-steam-webapi-viewer/)
-
-## Screen
-[![screen](https://raw.githubusercontent.com/levshx/nim-steam-webapi-viewer/main/screen.jpg)]()
