@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam webAPI viewer</title>
+    <script src="neel.js"></script>
+    <link href="https://community.akamai.steamstatic.com/public/shared/css/motiva_sans.css" rel="stylesheet"
+        type="text/css">
+    <link href="https://community.akamai.steamstatic.com/public/shared/css/buttons.css" rel="stylesheet"
+        type="text/css">
+    <link href="https://community.akamai.steamstatic.com/public/shared/css/shared_global.css" rel="stylesheet"
+        type="text/css">
+    <link href="https://community.akamai.steamstatic.com/public/css/globalv2.css" rel="stylesheet" type="text/css">
+    <link href="https://community.akamai.steamstatic.com/public/css/skin_1/global.css?client=0" rel="stylesheet"
+        type="text/css">
+    <link href="https://community.akamai.steamstatic.com/public/css/skin_1/dev_apikey.css" rel="stylesheet"
+        type="text/css">
+    <link href="https://community.akamai.steamstatic.com/public/css/skin_1/header.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <center>
+        <!-- header bar, contains info browsing user if logged in -->
+        <div id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+            <div class="content">
+                <div class="logo">
+                    <span id="logo_holder">
+                        <a href="https://store.steampowered.com/">
+                            <img src="https://community.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg"
+                                width="176" height="44">
+                        </a>
+                    </span>
+                </div>
+
+                <div class="supernav_container">
+                    <a class="menuitem" href="https://steamcommunity.com/dev/apikey" target="_blank">GET WEB API KEY</a>
+                </div>
+            </div>
+        </div>
+        <!-- /header bar -->
+
+
+        <!-- top content -->
+        <div id="BG_top">
+            <div id="mainContents">
+                <h2>Steam WebAPI</h2>
+            </div>
+        </div>
+        <!-- /top content -->
+
+        <!-- main body -->
+        <div id="BG_bottom">
+            <div id="bodyContents_ex">
+                <h2>Enter your web api key</h2>
+                <input id="apikey" class="form-control-lg" type="password" placeholder="key"> <br><br>
+                <input type="button" value="Show API" onclick="getListAPI()">                
+                <br>
+                <br>
+                <div id="API_div"></div>
+                <br>
+                <br>                
+            </div>
+        </div>
+    </center>
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"></script>
+
+</body>
