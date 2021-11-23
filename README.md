@@ -4,7 +4,7 @@
 
 WebAPI viewer
 
-Accepts the WebAPI key and returns a list of available interfaces and methods.
+Accepts the WebAPI key and returns a list of available interfaces and methods in a readable form.
 
 [![Github REPORT](https://img.shields.io/static/v1?label=GITHUB&message=REPORT%20BUGS&style=for-the-badge&logo=GitHub)](https://github.com/levshx/nim-steam-webapi-viewer/issues/new)
 <!-- # Badges -->
