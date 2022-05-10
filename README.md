@@ -1,4 +1,4 @@
-[![POWERED BY nim-steam](https://github.com/levshx/nim-steam/blob/main/resources/nim-steam.png?raw=true)](https://github.com/levshx/nim-steam)
+[![POWERED BY nim-steam](https://github.com/levshx/nim-steam/blob/devel/resources/nim-steam.png?raw=true)](https://github.com/levshx/nim-steam)
 # <img src="http://forum.nim-lang.org/images/logo.png" style="height: 25px;" href="https://github.com/nim-lang"> nim-steam-webapi-viewer
 <!-- # Short Description -->
 
